@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  background: #f4f4f4;
+}
+input, button {
+  padding: 10px;
+  margin: 10px;
+}
+ul {
+  list-style: none;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 10px;
+  margin: 5px auto;
+  width: 300px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+button.eliminar {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
